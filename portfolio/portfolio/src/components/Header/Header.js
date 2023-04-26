@@ -13,9 +13,23 @@ const Header = () =>  (
       <DiCssdeck size="3rem" /> <span>Portfolio</span> 
       </a>
       </Link>
-
-
       </Div1>
+      <Div2>
+        <li>
+          <Link href="#projects">
+            <NavLink> Projects</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#tech">
+            <NavLink> Technologies</NavLink>
+          </Link>
+        </li> <li>
+          <Link href="#about">
+            <NavLink> About</NavLink>
+          </Link>
+        </li>
+      </Div2>
   </Container>
 );
 
