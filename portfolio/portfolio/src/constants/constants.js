@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Peaches Bot',
-    description: "",
+    description: "Discord bot with multiple commaands for a discord server",
       image: '/images/1.png',
       tags: ['Discord', 'Python'],
     source: 'https://github.com/nekumartins/Discord',
@@ -10,16 +10,16 @@ export const projects = [
   },
   {
     title: 'TicTacToe',
-    description:"",
+    description:"Implementing an AI to play Tic-Tac-Toe optimally, using Minimax",
     image: '/images/2.png',
-    tags: ['Python', 'TensorFlow'],
+    tags: ['Python', 'MiniMax'],
     source: 'https://github.com/nekumartins/AI-With-Python/tree/main/tictactoe',
     visit: 'https://github.com/nekumartins/AI-With-Python/tree/main/tictactoe',
     id: 1,
   },
   {
     title: 'Saycow',
-    description: "",
+    description: "Simple Python script that allows you to use the cowsay module to make a cow say whatever you want with different characters",
       image: '/images/tux.png',
       tags: ['Python', 'cowsay'],
     source: 'https://github.com/nekumartins/cowsay',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Hypertension Risk Monitor',
-    description: "",
+    description: "This app is designed to make it easy to remotely monitor a patient's risk for hypertension. It uses simulated data for demonstration purposes, but the ultimate goal is to link it to a Bluetooth bracelet that will transmit real-time blood pressure data to the app",
     image: '/images/nurse.png',
     tags: ['Flask', 'Python', 'HTML'],
     visit: 'https://github.com/babcock-campus-hackathon-2023/Candela',

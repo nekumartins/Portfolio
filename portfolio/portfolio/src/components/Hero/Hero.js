@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
@@ -9,12 +10,19 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Hi <br/>
-        I'm Chukwuneku
+        I'm Riley
       </SectionTitle>
       <SectionText>
         Software Developer, Tech Enthusiast and current Computer Science student at Babcock University
       </SectionText>
-      <Button onClick={() => window.location="https://github.com/nekumartins"}> About </Button>
+      <Button>
+      <Link legacyBehavior href="#about">
+        <a>
+         About
+         </a>
+      </Link>
+
+ </Button>
     </LeftSection>
   </Section>
 );
