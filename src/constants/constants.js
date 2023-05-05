@@ -31,7 +31,7 @@ export const projects = [
     description: "This app is designed to make it easy to remotely monitor a patient's risk for hypertension. It uses simulated data for demonstration purposes, but the ultimate goal is to link it to a Bluetooth bracelet that will transmit real-time blood pressure data to the app",
     image: '/images/nurse.png',
     tags: ['Flask', 'Python', 'HTML'],
-    visit: 'https://github.com/babcock-campus-hackathon-2023/Candela',
+    visit: 'https://github.com/nekumartins/Remote-Nurse',
     id: 3,
   },
 ];

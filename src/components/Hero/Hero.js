@@ -13,7 +13,7 @@ const Hero = (props) => (
         I'm Riley
       </SectionTitle>
       <SectionText>
-        Software Developer, Tech Enthusiast and current Computer Science student at Babcock University
+        Software Developer, Tech Enthusiast and currently a Computer Science student at Babcock University
       </SectionText>
       <Button>
       <Link legacyBehavior href="#about">
