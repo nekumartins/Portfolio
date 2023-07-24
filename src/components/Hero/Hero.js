@@ -10,10 +10,10 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Hi <br/>
-        I'm Riley
+        I'm Chukwuneku
       </SectionTitle>
       <SectionText>
-        Software Developer, Tech Enthusiast and currently a Computer Science student at Babcock University
+        Software & ML Engineer, Tech Enthusiast and Computer Science Major at Babcock University
       </SectionText>
       <Button>
       <Link legacyBehavior href="#about">
