@@ -9,13 +9,30 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Traffic Sign Detector',
+    description:"Road sign classifier, trained on the GTRSB dataset",
+    image: '/images/traffic.png',
+    tags: ['Python', 'Tensorflow','Scikit-Learn'],
+    source: 'https://github.com/nekumartins/AI-With-Python/tree/main/traffic',
+    visit: 'https://github.com/nekumartins/AI-With-Python/tree/main/traffic',
+    id: 1,
+  },
+  {
+    title: 'Remote Nurse ',
+    description: "Monitor the risk of Hypertension of a patient using a classifier model",
+    image: '/images/nurse.png',
+    tags: ['Flask', 'Python', 'HTML', 'Scikit-Learn', 'Pandas'],
+    visit: 'https://github.com/nekumartins/Remote-Nurse',
+    id: 2,
+  },
+  {
     title: 'TicTacToe',
-    description:"Implementing an AI to play Tic-Tac-Toe optimally, using Minimax",
+    description:"Wrote a Script to play tic tac toe optimally, utilized the MinMax algorithm",
     image: '/images/2.png',
-    tags: ['Python', 'MiniMax'],
+    tags: ['Python', 'PyGame','Scikit-Learn'],
     source: 'https://github.com/nekumartins/AI-With-Python/tree/main/tictactoe',
     visit: 'https://github.com/nekumartins/AI-With-Python/tree/main/tictactoe',
-    id: 1,
+    id: 3,
   },
   {
     title: 'Saycow',
@@ -24,16 +41,9 @@ export const projects = [
       tags: ['Python', 'cowsay'],
     source: 'https://github.com/nekumartins/cowsay',
     visit: 'https://github.com/nekumartins/cowsay',
-    id: 2,
+    id: 4,
   },
-  {
-    title: 'Hypertension Risk Monitor',
-    description: "This app is designed to make it easy to remotely monitor a patient's risk for hypertension. It uses simulated data for demonstration purposes, but the ultimate goal is to link it to a Bluetooth bracelet that will transmit real-time blood pressure data to the app",
-    image: '/images/nurse.png',
-    tags: ['Flask', 'Python', 'HTML'],
-    visit: 'https://github.com/nekumartins/Remote-Nurse',
-    id: 3,
-  },
+  
 ];
 
 export const TimeLineData = [
