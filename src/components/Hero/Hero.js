@@ -18,7 +18,7 @@ const Hero = (props) => (
       <Button>
       <Link legacyBehavior href="https://drive.google.com/file/d/1tzNtOLurhP37HCulleLWtvp6LmQdFj9x/view?usp=drivesdk">
         <a>
-        My CV
+        Resume
          </a>
       </Link>
 
