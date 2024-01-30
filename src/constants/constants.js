@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'FindIt',
+    description:" Lost and Found System ",
+    image: '/images/traffic.png',
+    tags: ['Azure', 'Django', 'Python'],
+    source: 'https://github.com/shadowdevsbu/lost-and-found-system.git',
+    visit: 'http://shadowdevs-findit.azurewebsites.net/',
+    id: 0,
+  },
+  {
     title: 'Peaches Bot',
     description: "Discord bot with multiple commaands for a discord server",
       image: '/images/1.png',
       tags: ['Discord', 'Python'],
     source: 'https://github.com/nekumartins/Discord',
     visit: 'https://github.com/nekumartins/Discord',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Traffic Sign Detector',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['Python', 'Tensorflow','Scikit-Learn'],
     source: 'https://github.com/nekumartins/AI-With-Python/tree/main/traffic',
     visit: 'https://github.com/nekumartins/AI-With-Python/tree/main/traffic',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Remote Nurse ',
@@ -23,7 +32,7 @@ export const projects = [
     image: '/images/nurse.png',
     tags: ['Flask', 'Python', 'HTML', 'Scikit-Learn', 'Pandas'],
     visit: 'https://github.com/nekumartins/Remote-Nurse',
-    id: 2,
+    id: 3,
   },
   {
     title: 'TicTacToe',
@@ -32,7 +41,7 @@ export const projects = [
     tags: ['Python', 'PyGame','Scikit-Learn'],
     source: 'https://github.com/nekumartins/AI-With-Python/tree/main/tictactoe',
     visit: 'https://github.com/nekumartins/AI-With-Python/tree/main/tictactoe',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Saycow',
@@ -41,7 +50,7 @@ export const projects = [
       tags: ['Python', 'cowsay'],
     source: 'https://github.com/nekumartins/cowsay',
     visit: 'https://github.com/nekumartins/cowsay',
-    id: 4,
+    id: 5,
   },
   
 ];
