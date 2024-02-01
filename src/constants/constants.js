@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Peaches Bot',
-    description: "Discord bot with multiple commands for a discord server",
+    description: "Discord Ai chat bot with auto moderation features",
       image: '/images/1.png',
       tags: ['Discord', 'Python'],
     source: 'https://github.com/nekumartins/Discord',
