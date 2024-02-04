@@ -56,7 +56,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: 'Started Studying Games Design at Uppsala University', },
-  { year: 2022, text: 'Started Studying Computer Science at Babcock University', },
+  { year: 2021, text: 'Admitted into Uppsala University to study Games Design', },
+  { year: 2022, text: 'Admitted into Babcock University to Computer Science', },
   { year: 2023, text: 'Accepted into the Software Engineering Programme at ALX', },
+  { year: 2023, text: 'Accepted into the Microsoft Learn Ambassador Programme'},
 ];
