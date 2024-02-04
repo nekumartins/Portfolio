@@ -56,7 +56,6 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Interned as a graphics designer at Delta Business School', },
   { year: 2021, text: 'Started Studying Games Design at Uppsala University', },
   { year: 2022, text: 'Started Studying Computer Science at Babcock University', },
   { year: 2023, text: 'Accepted into the Software Engineering Programme at ALX', },
