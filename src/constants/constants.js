@@ -60,4 +60,5 @@ export const TimeLineData = [
   { year: 2022, text: 'Admitted into Babcock University to Computer Science', },
   { year: 2023, text: 'Accepted into the Software Engineering Programme at ALX', },
   { year: 2023, text: 'Accepted into the Microsoft Learn Ambassador Programme'},
+  { year: 2023, text: 'Started a position as a Lead Engineer at ShadowdevsBU'}
 ];
