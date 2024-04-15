@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/findit.png',
     tags: ['Azure', 'Django', 'Python'],
     source: 'https://github.com/shadowdevsbu/lost-and-found-system.git',
-    visit: 'http://shadowdevs-findit.azurewebsites.net/',
+    visit: 'https://shadowdevs-findit.azurewebsites.net/',
     id: 0,
   },
   {
