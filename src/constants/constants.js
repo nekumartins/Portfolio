@@ -1,8 +1,8 @@
 export const projects = [
   {
     title: 'FindIt',
-    description:" Lost and Found System ",
-    image: '/images/traffic.png',
+    description:" Lost and Found System, for university students built with Django and Azure",
+    image: '/images/findit.png',
     tags: ['Azure', 'Django', 'Python'],
     source: 'https://github.com/shadowdevsbu/lost-and-found-system.git',
     visit: 'http://shadowdevs-findit.azurewebsites.net/',
@@ -31,6 +31,7 @@ export const projects = [
     description: "Monitor the risk of Hypertension of a patient using a classifier model",
     image: '/images/nurse.png',
     tags: ['Flask', 'Python', 'HTML', 'Scikit-Learn', 'Pandas'],
+    source: 'https://github.com/nekumartins/Remote-Nurse',
     visit: 'https://github.com/nekumartins/Remote-Nurse',
     id: 3,
   },
@@ -57,8 +58,13 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2021, text: 'Admitted into Uppsala University to study Games Design', },
-  { year: 2022, text: 'Admitted into Babcock University to Computer Science', },
-  { year: 2023, text: 'Accepted into the Software Engineering Programme at ALX', },
-  { year: 2023, text: 'Accepted into the Microsoft Learn Ambassador Programme'},
-  { year: 2023, text: 'Started a position as a Lead Engineer at ShadowdevsBU'}
+  { year: 2022, text: 'Admitted into Babcock University to study Computer Science' },
+  { year: 2022, text: 'Joined the GDSC Babcock University Chapter' },
+  { year: 2023, text: 'Volunteered as a Tutor at Catalyst Babcock University'},
+  { year: 2023, text: 'Joined the Babcock University Academic Comittee'},
+  { year: 2023, text: 'Accepted into the Software Engineering Program at ALX', },
+  { year: 2023, text: 'Member of the GDSC Data Science Core Team' },
+  { year: 2023, text: 'Accepted into the Microsoft Learn Ambassador Program'},
+  { year: 2023, text: 'Started a position as a Lead Engineer at ShadowdevsBU'},
+  { year: 2024, text: 'Advanced to the Beta Milestone of the Microsoft Learn Student Ambassador Program'},
 ];
