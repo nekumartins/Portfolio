@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle> About Me</SectionTitle>
       <SectionText>
-        Computer Science Student and Tech Enthusiast with a passion for Artificial Intelligence and Machine Learning <br />
+      Second-year Computer Science student at Babcock University and a Beta Microsoft Learn Student Ambassador. Specializing in backend software engineering with Django and certified in Azure and Oracle Cloud Infrastructure, I'm passionate about data science and machine learning. Let's connect and explore opportunities to innovate together!<br />
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
