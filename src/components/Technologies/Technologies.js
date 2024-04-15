@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiPython, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiGit, DiGithub, DiNpm, DiPython, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -17,7 +17,6 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
             React.js <br />
             Next.js
           </ListParagraph>
@@ -28,11 +27,9 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
             Django <br />
             Flask <br />
             FastApi <br />
-            Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,11 +38,48 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experience with <br />
             Python <br />
+            Java <br />
             JavaScript <br />
-            C++ <br/>
-            C<br/ >
+            C\C++ <br/>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiNpm size="3rem" />
+        <ListContainer>
+          <ListTitle>Frameworks & Libraries</ListTitle>
+          <ListParagraph>
+            Numpy<br />
+            Pandas <br />
+            Scikit-Learn<br />
+            Tensorflow<br/>
+            Spring <br />
+            PyTorch 
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiGithub size="3rem" />
+        <ListContainer>
+          <ListTitle>Cloud Infrastructure</ListTitle>
+          <ListParagraph>
+            Github <br />
+            Microsoft Azure <br />
+            Oracle Cloud Infrastructure <br />
+            Heroku <br/>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiGit size="3rem" />
+        <ListContainer>
+          <ListTitle>Other</ListTitle>
+          <ListParagraph>
+            Git <br />
+            Anaconda <br />
+            Postgresql<br/>
+            Mysql
           </ListParagraph>
         </ListContainer>
       </ListItem>
